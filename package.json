@@ -1,0 +1,11 @@
+{
+  "name": "pisgenji",
+  "version": "4.4.3",
+  "description": "Pis and Genji",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jimin Hong",
+  "license": "ISC"
+}
