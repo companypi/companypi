@@ -21,9 +21,7 @@
 	notifyForm function
 	animateStart function
 	animateFinish function
-	slider function
-	Animated Gradient function
-	Placehoder ie9
+	placeholder ie9
  ** ***************************************/
  "use strict";
 
@@ -33,8 +31,6 @@ $(document).ready(function(){
   notifyForm();
   pogody();
   $('.la-anim-1').addClass('la-animate');
-  rollBg();
-  setInterval(rollBg, 5000);
 });
 /*****Ready function end*****/
 
@@ -120,10 +116,9 @@ function pogody(){
         }
     }
 	});
-
 	/*Typed js*/
 	$("#typed").typed({
-		strings: [" Welcome to Genji", " Celebrate this Mother's Day with us!"],
+		strings: [" Welcome to Genji", " Happy Mother's Day", " Make a reservation"],
 		typeSpeed: 100,
 		backDelay: 900,
 		loop: true,
@@ -378,29 +373,6 @@ function animateFinish(){
   });
 }
 /***** animateFinish function end *****/
-
-/***** Animated Gradient function start *****/
-function newGradient() {
-	var c1 = {
-		r: Math.floor(Math.random()*255),
-		g: Math.floor(Math.random()*255),
-		b: Math.floor(Math.random()*255)
-	};
-	var c2 = {
-		r: Math.floor(Math.random()*255),
-		g: Math.floor(Math.random()*255),
-		b: Math.floor(Math.random()*255)
-	};
-	c1.rgb = 'rgb('+c1.r+','+c1.g+','+c1.b+')';
-	c2.rgb = 'rgb('+c2.r+','+c2.g+','+c2.b+')';
-	return 'radial-gradient(at top left, '+c1.rgb+', '+c2.rgb+')';
-}
-
-function rollBg() {
-	$('.bg.disappear').css('background', newGradient());
-	$('.bg').toggleClass('disappear');
-}
-/***** Animated Gradient function end *****/
 
 
 /***** Placehoder ie9 start*****/

@@ -17,7 +17,6 @@ Project:	Pogody
 @import url(font-awesome.min.css);
 @import url(bootstrap.min.css);
 @import url(inputtext.css);
-@import url(slider.css);
 /****************************/
 /** Reset **/
 /****************************/
@@ -35,7 +34,7 @@ strong {
 
 body {
   color: #fff;
-  background: #fff;
+  background: #fbf18e;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -153,7 +152,7 @@ p, .address-detail a {
   position: relative; }
 
 .side-left {
-  background: #fff;
+  background: #fbf18e;
   padding-top: 11%; }
   .side-left .small-hr {
     margin-top: 17px;
@@ -164,7 +163,7 @@ p, .address-detail a {
     height: 100%; }
 
 .preloader {
-  background: #fff; }
+  background: #fbf18e; }
 
 p.tagline, .address-detail a.tagline {
   font-size: 30px;
@@ -173,37 +172,27 @@ p.tagline, .address-detail a.tagline {
   letter-spacing: -1px; }
 
 .side-right {
+  background: transparent url("../img/mainbg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #000;
-  right: 0;
-  overflow: hidden; }
+  right: 0; }
   .side-right #countdown {
     padding-top: 28px; }
   .side-right .counter-content {
     padding-top: 35%; }
   .side-right #countdown span,
   .side-right #countdown li.seperator {
-    color: #fff;
+    color: #000;
     line-height: 97px; }
   .side-right .trans-overlay-dark {
-    background: #000;
+    background: #fff;
     /* The Fallback */
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.6);
     position: absolute;
     left: 0;
-    z-index: -1; }
-  .side-right .tagline {
-    color: #fff; }
-  .side-right .small-hr {
-    background: #fff none repeat scroll 0 0; }
-  .side-right .remain-days {
-    color: #fff; }
-  .side-right .call-to-action span {
-    background: #fff; }
-  .side-right .call-to-action i {
-    color: #fff; }
+    z-index: -2; }
 
 .align-center, .address-detail {
   overflow: hidden;
@@ -230,19 +219,16 @@ p.tagline, .address-detail a.tagline {
   background: transparent url("../img/leftbg.jpg"); }
   .page-left .page-inner .small-hr {
     margin-top: 9px;
-    margin-bottom: 23px;
-    background: #fff; }
+    margin-bottom: 23px; }
   .page-left .page-inner .trans-overlay-dark-about {
-    background: #000;
+    background: #fff;
     /* The Fallback */
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 0.8);
     position: absolute;
     top: 0;
     height: 100%;
     width: 100%;
     z-index: 1; }
-  .page-left .page-inner h3, .page-left .page-inner p.tagline, .page-left .page-inner .address-detail a.tagline, .address-detail .page-left .page-inner a.tagline, .page-left .page-inner p, .page-left .page-inner .address-detail a, .address-detail .page-left .page-inner a {
-    color: #fff; }
 
 .trans-overlay-dark {
   background: #fff;
@@ -258,9 +244,9 @@ p.tagline, .address-detail a.tagline {
   padding-bottom: 100px;
   background: transparent url("../img/rightbg.jpg"); }
   .page-right .page-inner .trans-overlay-dark-contact {
-    background: #fff;
+    background: #fbf18e;
     /* The Fallback */
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(251, 241, 142, 0.8);
     position: absolute;
     top: 0;
     height: 100%;
@@ -431,7 +417,7 @@ p.tagline, .address-detail a.tagline {
   border-color: #000;
   border-radius: 0;
   height: 57px;
-  width: 203px;
+  width: 225px;
   background: #000; }
   .btn:hover, .btn:focus, .btn:active {
     background: #000;
@@ -802,16 +788,6 @@ p.tagline, .address-detail a.tagline {
     position: absolute;
     width: 100%; }
 
-.bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: .6;
-  -webkit-transition: opacity 5s;
-  -moz-transition: opacity 5s;
-  transition: opacity 5s; }
-
 /*****************************************************/
 /* Mediaqueries */
 /*****************************************************/
@@ -976,7 +952,7 @@ p.tagline, .address-detail a.tagline {
     font-size: 30px; }
 
   .side {
-    position: relative !important;
+    position: relative;
     width: 100%; }
     .side.side-right .counter-content {
       padding-bottom: 80px;
@@ -1005,9 +981,9 @@ p.tagline, .address-detail a.tagline {
       .page .detail-info .panel-body {
         padding-bottom: 0; }
     .page.page-left {
-      transform: translateX(0px);
       -webkit-transform: translateX(0px);
-      -moz-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+      transform: translateX(0px);
       position: static; }
       .page.page-left .detail-info h3 {
         padding-bottom: 33px; }
@@ -1017,9 +993,9 @@ p.tagline, .address-detail a.tagline {
         float: none; }
     .page.page-right {
       left: 0;
-      transform: translateX(0px);
       -webkit-transform: translateX(0px);
-      -moz-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+      transform: translateX(0px);
       position: static; }
       .page.page-right .panel-body {
         padding-left: 0;
@@ -1097,20 +1073,20 @@ p.tagline, .address-detail a.tagline {
   h1, h3, .side-right #countdown span,
   .side-right #countdown li.seperator {
     font-size: 35px; } }
+
+/*# sourceMappingURL=style.css.map */
 .fullscreen-bg{
-  position: fixed;
+  position: relative;;
   top: 0;
-  right: 0;
   bottom: 0;
+  right: 0;
   left: 0;
   overflow: hidden;
   z-index: -100;
 }
 .fullscreen-bg__video{
-  position: absolute;
-  top: 0;
+  position: relative;
   right: 0;
   /*width: 100%;*/
   height: 100%;
 }
-/*# sourceMappingURL=style.css.map */
