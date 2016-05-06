@@ -1,4 +1,4 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
 /*------------------------------------------------------------------
 [Master Stylesheet]
 Project:	Pogody
@@ -11,13 +11,13 @@ Project:	Pogody
 /****************************/
 /** Imports **/
 /****************************/
-@import "jquery.countdown.css";	
-@import "animate.css";	
-@import "owl.carousel.css";	
-@import "component2.css";	
-@import "font-awesome.min.css";	
-@import "bootstrap.min.css";	
-@import "inputtext.css";	
+@import "jquery.countdown.css";
+@import "animate.css";
+@import "owl.carousel.css";
+@import "component2.css";
+@import "font-awesome.min.css";
+@import "bootstrap.min.css";
+@import "inputtext.css";
 
 
 $primery_color: #000;
@@ -61,7 +61,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a
 strong{
 	font-weight:bold;
 }
- 
+
 body {
 	color: $secondery_color;
 	background:$background_color;
@@ -102,7 +102,7 @@ a:focus {
 }
 h1{
 	color:$primery_color;
-	font-size:80px;;
+	font-size:50px;;
 	letter-spacing:-1px;
 	font-weight:600;
 }
@@ -241,7 +241,7 @@ p.tagline {
 		left:0;
 		z-index:-2;
 	}
-	
+
 }
 
 .align-center {
@@ -249,14 +249,14 @@ p.tagline {
    margin:0 auto;
 }
 .main {
-	
+
 }
 .type-wrap {
 	min-height:120px;
 	padding-bottom:40px;
 }
 .logo {
-	
+
 }
 .small-hr {
     background: $primery_color none repeat scroll 0 0;
@@ -273,7 +273,7 @@ p.tagline {
 .page-left .page-inner {
 	@extend .bg-img;
 	background: rgba(0, 0, 0, 0) $about_background_img;
-	
+
 	.small-hr {
 		margin-top:9px;
 		margin-bottom:23px;
@@ -307,7 +307,7 @@ p.tagline {
 		width:100%;
 		z-index:1;
 	}
-	
+
 	.copyright {
 		display:none;
 	}
@@ -328,7 +328,7 @@ p.tagline {
 			-webkit-appearance: none;
 			@include transition(all .2s ease-in-out);
 		}
-	
+
 	.owl-controls span {
 		background: none;
 		border: 2px solid $primery_color;
@@ -353,7 +353,7 @@ p.tagline {
 	.owl-item {
 			background:$secondery_color;
 		}
-	
+
 	.owl-item:hover {
 			box-shadow: 0 0 0 4px $primery_color inset;
 			-webkit-box-shadow: 0 0 0 4px $primery_color inset;
@@ -420,7 +420,7 @@ p.tagline {
 		font-weight:500;
 		padding:25px 0;
 	}
-	
+
 }
 .team-sec {
 	margin-top:20px!important;
@@ -486,9 +486,9 @@ p.tagline {
 					color:#1769ff;
 				}
 			}
-			
+
 		}
-		
+
 	}
 }
 
@@ -536,7 +536,7 @@ p.tagline {
 	.arrow-wrap{
 		padding:15px;
 		padding-right:10px;
-	}	
+	}
 	.arrow {
 		padding-left:0;
 		margin-left:29px;
@@ -558,10 +558,10 @@ p.tagline {
 			transition: width 0.3s ease 0.3s;
 			-webkit-transition: width 0.3s ease 0.3s;
 			width: 15px;
-			
+
 		}
 	}
-	
+
 	span {
 			display:inline-block;
 			float:left;
@@ -585,7 +585,7 @@ p.tagline {
 	 &:hover,&:focus,&:active {
        color:$primery_color;
     }
-	
+
 }
 .notify-wrap {
 		i {
@@ -603,7 +603,7 @@ p.tagline {
 				}
 				margin-top:25px;
 				width:57px;
-			
+
 			}
 		.notify-input-box {
 			border:none;
@@ -619,7 +619,7 @@ p.tagline {
 			   box-shadow:none;
 			}
 		}
-		
+
 		#notifyMe {
 			width:441px;
 		}
@@ -644,7 +644,7 @@ p.tagline {
 	&:-moz-placeholder { /* Firefox 18- */
 	   color: $primery_color;
 	   font-size:18px;
-	   font-weight:600;  
+	   font-weight:600;
 	   text-transform:uppercase;
 	}
 
@@ -655,13 +655,13 @@ p.tagline {
 	   text-transform:uppercase;
 	}
 
-	&:-ms-input-placeholder {  
+	&:-ms-input-placeholder {
 	   color: $primery_color;
 	   font-size:18px;
-	   font-weight:600;  
+	   font-weight:600;
 	   text-transform:uppercase;
-	}	
-}	
+	}
+}
 .section-title {
 	padding-top:11%;
 	padding-bottom:18px;
@@ -725,7 +725,7 @@ p.tagline {
 		padding-left:0;
 		i {
 			font-size:15px;
-		}	
+		}
 	}
 	 form {
 		padding-bottom:35px;
@@ -742,9 +742,9 @@ p.tagline {
 		.arrow {
 				margin-left:8px;
 			}
-			
+
 	}
-	
+
 	.map {
 		padding-top:75px;
 		a {
@@ -756,7 +756,7 @@ p.tagline {
 		span {
 			display:inline-block;
 		}
-		.go-arrow {	
+		.go-arrow {
 			width: 0;
 			height: 0;
 			border-style: solid;
@@ -792,7 +792,7 @@ p.tagline {
 			padding-bottom:0;
 			padding-top:0;
 		}
-		
+
 		i {
 			display:block;
 		}
@@ -948,7 +948,7 @@ p.tagline {
 		right: 0;
 		height: 100%;
 		top:0;
-		
+
 	}
 }
 .about {
@@ -965,7 +965,7 @@ p.tagline {
 .open-right .contact{
 	right:50px;
 }
-#astronomy {	
+#astronomy {
 	height: 100%;
     position: absolute;
     width: 100%;
@@ -975,8 +975,8 @@ p.tagline {
 		left: 0;
 		position: absolute;
 		width: 100%;
-	}	
-}	
+	}
+}
 /*****************************************************/
 /* Mediaqueries */
 /*****************************************************/
@@ -1068,7 +1068,7 @@ p.tagline {
 	   font-size:14px;
 	}
 
-	&:-ms-input-placeholder {  
+	&:-ms-input-placeholder {
 	   font-size:14px;
 	}
 }
@@ -1083,7 +1083,7 @@ p.tagline {
 			border-width: 5px 0 5px 10px;
 		}
 		}
-	}	
+	}
 }
 @media only screen and (max-width: 1082px) {
 	h1 {
@@ -1092,12 +1092,12 @@ p.tagline {
 	h3 {
 		font-size:30px;
 	}
-	p.tagline, 
+	p.tagline,
 	.address-detail a.tagline {
 		font-size:20px;
 		line-height:35px;
 	}
-	
+
 	.side-right {
 		#countdown {
 			padding-top: 8px;
@@ -1134,7 +1134,7 @@ p.tagline {
 	padding-bottom:12px;
 }
 }
-@media only screen and (max-width: 971px) { 
+@media only screen and (max-width: 971px) {
 	.open-right .contact {
 		right: 20px;
 	}
@@ -1157,8 +1157,8 @@ p.tagline {
 		font-size:12px;
 	}
 }
-@media only screen and (max-width: 834px) { 
-	
+@media only screen and (max-width: 834px) {
+
 	.notify-wrap {
 		.notify-input-box{
 			font-size:12px;
@@ -1176,7 +1176,7 @@ p.tagline {
 			   font-size:12px;
 			}
 
-			&:-ms-input-placeholder {  
+			&:-ms-input-placeholder {
 			   font-size:12px;
 			}
 		}
@@ -1188,7 +1188,7 @@ h1 {
 }
 h3 {
 	font-size:30px;
-}  
+}
 .side {
     position: relative;
     width: 100%;
@@ -1212,7 +1212,7 @@ h3 {
 .logo img {
 		width: auto;
 	}
-	
+
 .page {
     position: static;
     width: 100%;
@@ -1233,9 +1233,9 @@ h3 {
 		.detail-info h3 {
 			padding-bottom:33px;
 		}
-		.col-sm-3 ,.col-xs-9{ 
+		.col-sm-3 ,.col-xs-9{
 			width:75%;
-			margin:0 auto; 
+			margin:0 auto;
 			float:none;
 		}
 	}
@@ -1266,9 +1266,9 @@ h3 {
 				width: 100%;
 			}
 		}
-		.col-sm-3 ,.col-xs-9{ 
+		.col-sm-3 ,.col-xs-9{
 			width:75%;
-			margin:0 auto; 
+			margin:0 auto;
 			float:none;
 		}
 	}
@@ -1294,7 +1294,7 @@ h3 {
 	-ms-transform: translateX(0);
 	    transform: translateX(0);
 	}
-		
+
 	.open-left .side-left .main,
 	.open-right .side-right .main
 	{
@@ -1310,19 +1310,19 @@ h3 {
 	-ms-transform: translateX(0%);
 	    transform: translateX(0%);
 	}
-	.reset-layout .page, 
-	.splitlayout.open-right .page-left, 
+	.reset-layout .page,
+	.splitlayout.open-right .page-left,
 	.splitlayout.open-left .page-right,
-	.splitlayout.close-right .page-left, 
+	.splitlayout.close-right .page-left,
 	.splitlayout.close-left .page-right {
 		position:static;
 	}
 
 }
 @media only screen and (max-width: 736px) {
-	
+
 }
-@media only screen and (max-width: 615px) { 
+@media only screen and (max-width: 615px) {
 	.detail-info h3 {
 		padding-bottom:15px;
 	}
@@ -1330,9 +1330,9 @@ h3 {
 	.col-xs-11.pad-left-zero {
 		padding-left:15px;
 	}
-	
+
 }
-@media only screen and (max-width: 438px) {  
+@media only screen and (max-width: 438px) {
 		.col-xs-11.pad-left-zero {
 			padding-left:0;
 			width:100%;
@@ -1341,7 +1341,7 @@ h3 {
 			padding-top:8px;
 		}
 }
-@media only screen and (max-width: 414px) {  
+@media only screen and (max-width: 414px) {
 		h1 {
 			font-size:35px;
 		}
